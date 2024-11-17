@@ -16,7 +16,7 @@
   @endif
   <x-top-banner />
 
-  <main class="container mx-auto p-4 mt-4">
+  <main class="container min-h-screen mx-auto p-4 mt-4">
    {{ $slot }}
   </main>
 

@@ -1,3 +1,4 @@
 <x-layout>
-  <h2>Joba: {{ $id}}</h2>
+  <h2 class="text-2xl font-bold">{{ $job->title }}</h2>
+  <p>{{ $job->description }}</p>
 </x-layout>
