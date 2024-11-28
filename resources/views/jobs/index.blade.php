@@ -8,4 +8,7 @@
       <p>No jobs found</p>
     @endforelse
   </div>
+
+  {{-- Pagination Links --}}
+  {{ $jobs->links()}}
 </x-layout>

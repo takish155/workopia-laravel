@@ -15,7 +15,7 @@ return new class extends Migration
         DB::table("job_listings")->truncate();
 
         Schema::table('job_listings', function (Blueprint $table) {
-            $table->unsignedBigInteger("user_id")->after("id");
+            $table->    ("user_id")->after("id");
             //
             $table->integer("salary");
             $table->string("tags")->nullable();

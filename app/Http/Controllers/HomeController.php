@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    //
+    // @desc Show home page
+    // @route GET /
     public function index(): View
     {
         $jobs = Job::latest()->limit(6)->get();
